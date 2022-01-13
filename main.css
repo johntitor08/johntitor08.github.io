@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 4px;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid grey;
+}
+
+#home img {
+    width: 30%;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2 {
+    margin: 0.75rem;
+}
+
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#games {
+    color: #fff;
+    padding: 1rem;
+}
+
+#games .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#games .items .item {
+    width: 50%;
+    text-align: center;
+    padding: 1.5rem;
+    margin: auto;
+}
+
+#games .items .item:hover {
+    opacity: 0.8;
+}
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form h4 {
+    padding-top: 5rem;
+}
+
+#contact .contact-form button {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 2rem auto;
+}
+
+#contact .contact-form button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin: 1rem 3rem;    
+    padding-inline-start: 0;
+}
+
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.8;
+}
