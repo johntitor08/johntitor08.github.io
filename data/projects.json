@@ -1,0 +1,767 @@
+[
+ {
+  "name": "johntitor08.github.io",
+  "description": "ilk web sitem",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-10-31T16:31:15Z",
+  "homepage": "https://johntitor08.github.io",
+  "url": "https://github.com/johntitor08/johntitor08.github.io"
+ },
+ {
+  "name": "mycity-online",
+  "description": "Godot 4.6 ile MyCity benzeri çok oyunculu şehir oyunu: arsa, bahis, poker, balık, plaj, hastane ve market işleri",
+  "language": "GDScript",
+  "stars": 0,
+  "updated": "2026-10-31T15:46:21Z",
+  "homepage": "https://johntitortheprog.itch.io/mycity-online-web",
+  "url": "https://github.com/johntitor08/mycity-online"
+ },
+ {
+  "name": "Whispers-of-the-Night-Godot",
+  "description": "Whispers of the Night — Godot 4.6 port",
+  "language": "GDScript",
+  "stars": 0,
+  "updated": "2026-10-30T21:04:03Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Whispers-of-the-Night-Godot"
+ },
+ {
+  "name": "Below-Hell-Godot",
+  "description": "Below Hell — Godot 4.6 redesign",
+  "language": "GDScript",
+  "stars": 0,
+  "updated": "2026-10-30T20:20:52Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Below-Hell-Godot"
+ },
+ {
+  "name": "Unity-Game-Mechanics",
+  "description": "game store link",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-10-17T21:01:19Z",
+  "homepage": "https://store.steampowered.com/app/4939740/Whispers_of_the_Night/",
+  "url": "https://github.com/johntitor08/Unity-Game-Mechanics"
+ },
+ {
+  "name": "qr-library",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-09-30T00:52:57Z",
+  "homepage": "https://bibliotheca-intro.web.app/",
+  "url": "https://github.com/johntitor08/qr-library"
+ },
+ {
+  "name": "Shadow-Garden",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-09-25T19:40:22Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Shadow-Garden"
+ },
+ {
+  "name": "Visual-Novel",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-09-24T17:32:44Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Visual-Novel"
+ },
+ {
+  "name": "atasos-tools",
+  "description": "atasOS: LFS-based distro tooling — package managers, build scripts",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2026-09-03T02:22:15Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/atasos-tools"
+ },
+ {
+  "name": "DDTankLite",
+  "description": "",
+  "language": "ShaderLab",
+  "stars": 0,
+  "updated": "2026-07-23T09:10:38Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/DDTankLite"
+ },
+ {
+  "name": "Tower-Defense-2D-Tutorial",
+  "description": "",
+  "language": "ASP.NET",
+  "stars": 0,
+  "updated": "2026-07-07T04:11:31Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Tower-Defense-2D-Tutorial"
+ },
+ {
+  "name": "woxelcraft",
+  "description": "made by claude fable 5.",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-06-14T06:13:36Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/woxelcraft"
+ },
+ {
+  "name": "notepad",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-06-13T21:58:17Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/notepad"
+ },
+ {
+  "name": "myos",
+  "description": "",
+  "language": "C",
+  "stars": 0,
+  "updated": "2026-06-13T15:34:42Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/myos"
+ },
+ {
+  "name": "senmermer",
+  "description": "",
+  "language": "TypeScript",
+  "stars": 0,
+  "updated": "2026-06-12T21:37:43Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/senmermer"
+ },
+ {
+  "name": "qr-lib-sql-server",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-06-12T14:55:40Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/qr-lib-sql-server"
+ },
+ {
+  "name": "2D-Sandbox-Game",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-06-07T23:46:13Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/2D-Sandbox-Game"
+ },
+ {
+  "name": "bufe",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-06-07T14:20:42Z",
+  "homepage": "https://kilicbufe.johntitortheprogrammer.workers.dev",
+  "url": "https://github.com/johntitor08/bufe"
+ },
+ {
+  "name": "MiniLibrary",
+  "description": "",
+  "language": "Rust",
+  "stars": 0,
+  "updated": "2026-06-07T13:40:53Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/MiniLibrary"
+ },
+ {
+  "name": "demirbase",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-06-07T13:38:43Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/demirbase"
+ },
+ {
+  "name": "demirbase-sql-server",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-06-06T11:14:09Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/demirbase-sql-server"
+ },
+ {
+  "name": "Drawing-App-Unity",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-06-04T08:56:38Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Drawing-App-Unity"
+ },
+ {
+  "name": "Puzzle-Game",
+  "description": "",
+  "language": "ShaderLab",
+  "stars": 0,
+  "updated": "2026-06-04T08:53:05Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Puzzle-Game"
+ },
+ {
+  "name": "bibliotheca-electron",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-05-27T18:31:48Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/bibliotheca-electron"
+ },
+ {
+  "name": "Python",
+  "description": "",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2026-05-16T00:00:36Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Python"
+ },
+ {
+  "name": "2D-Breakout-Game",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-05-10T18:01:14Z",
+  "homepage": "https://2-d-breakout-game-theta.vercel.app",
+  "url": "https://github.com/johntitor08/2D-Breakout-Game"
+ },
+ {
+  "name": "ChatBot",
+  "description": "",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2026-05-10T16:26:42Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/ChatBot"
+ },
+ {
+  "name": "spring-boot-projects",
+  "description": "",
+  "language": "Java",
+  "stars": 1,
+  "updated": "2026-05-07T13:32:11Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/spring-boot-projects"
+ },
+ {
+  "name": "drawing-app",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2026-04-18T19:53:19Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/drawing-app"
+ },
+ {
+  "name": "Programming-Notes",
+  "description": "",
+  "language": "C++",
+  "stars": 0,
+  "updated": "2026-04-18T00:06:10Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Programming-Notes"
+ },
+ {
+  "name": "Dictionary-Search-Project",
+  "description": "",
+  "language": "",
+  "stars": 0,
+  "updated": "2026-04-17T23:52:52Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Dictionary-Search-Project"
+ },
+ {
+  "name": "lecture-notes",
+  "description": "",
+  "language": "",
+  "stars": 0,
+  "updated": "2026-04-17T23:49:57Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/lecture-notes"
+ },
+ {
+  "name": "Safe-Disk-Cleanup-App",
+  "description": "",
+  "language": "TeX",
+  "stars": 0,
+  "updated": "2026-04-04T14:33:43Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Safe-Disk-Cleanup-App"
+ },
+ {
+  "name": "Jumper-Cube",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-04-03T22:44:36Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Jumper-Cube"
+ },
+ {
+  "name": "Exlipse",
+  "description": "",
+  "language": "ShaderLab",
+  "stars": 0,
+  "updated": "2026-04-03T22:43:46Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Exlipse"
+ },
+ {
+  "name": "Hill-Climb-Racing",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2026-04-03T22:40:59Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Hill-Climb-Racing"
+ },
+ {
+  "name": "Street-Kings",
+  "description": "",
+  "language": "ShaderLab",
+  "stars": 0,
+  "updated": "2026-04-03T22:30:39Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Street-Kings"
+ },
+ {
+  "name": "jwt-auth-project",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2026-03-22T00:57:17Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/jwt-auth-project"
+ },
+ {
+  "name": "React",
+  "description": "",
+  "language": "TypeScript",
+  "stars": 0,
+  "updated": "2026-03-09T21:26:21Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/React"
+ },
+ {
+  "name": "Express.js-Tutorial",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2026-01-05T08:55:38Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Express.js-Tutorial"
+ },
+ {
+  "name": "Shortest-Path-Problem",
+  "description": "",
+  "language": "Java",
+  "stars": 0,
+  "updated": "2025-12-14T00:56:24Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Shortest-Path-Problem"
+ },
+ {
+  "name": "NoraEngine",
+  "description": "",
+  "language": "C++",
+  "stars": 0,
+  "updated": "2025-12-02T04:32:19Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/NoraEngine"
+ },
+ {
+  "name": "Quiz-App",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2025-11-28T20:04:01Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Quiz-App"
+ },
+ {
+  "name": "EmployeeApp",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-11-15T09:50:44Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/EmployeeApp"
+ },
+ {
+  "name": "ConnectFourGameBlazor",
+  "description": "",
+  "language": "CSS",
+  "stars": 0,
+  "updated": "2025-11-15T07:05:46Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/ConnectFourGameBlazor"
+ },
+ {
+  "name": "RazorClassLibrary",
+  "description": "",
+  "language": "CSS",
+  "stars": 0,
+  "updated": "2025-11-13T21:39:10Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/RazorClassLibrary"
+ },
+ {
+  "name": "skills-github-pages",
+  "description": "My clone repository",
+  "language": "",
+  "stars": 0,
+  "updated": "2025-11-10T03:35:04Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/skills-github-pages"
+ },
+ {
+  "name": "useWebStorageHook",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-11-05T04:15:25Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/useWebStorageHook"
+ },
+ {
+  "name": "Real-Time-Chat-App-with-Socket",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2025-11-04T02:19:27Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Real-Time-Chat-App-with-Socket"
+ },
+ {
+  "name": "Transformice-Modules",
+  "description": "",
+  "language": "",
+  "stars": 0,
+  "updated": "2025-11-03T22:58:54Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Transformice-Modules"
+ },
+ {
+  "name": "SERN",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-10-31T06:58:14Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/SERN"
+ },
+ {
+  "name": "JWTAuthReactFastAPI",
+  "description": "",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2025-10-30T04:58:35Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/JWTAuthReactFastAPI"
+ },
+ {
+  "name": "spring-boot-jwt-auth-sample",
+  "description": "",
+  "language": "Java",
+  "stars": 0,
+  "updated": "2025-10-28T21:46:46Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/spring-boot-jwt-auth-sample"
+ },
+ {
+  "name": "Basic-JWT-Auth-System-with-NodeJS",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-10-28T11:35:49Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Basic-JWT-Auth-System-with-NodeJS"
+ },
+ {
+  "name": "spring-jwt-auth",
+  "description": "",
+  "language": "Java",
+  "stars": 0,
+  "updated": "2025-10-28T08:31:40Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/spring-jwt-auth"
+ },
+ {
+  "name": "Webpack-Babel-Server",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-10-26T01:29:02Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Webpack-Babel-Server"
+ },
+ {
+  "name": "JavaScript-OOP",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-10-25T14:25:01Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/JavaScript-OOP"
+ },
+ {
+  "name": "merge-sort",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-10-25T12:51:56Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/merge-sort"
+ },
+ {
+  "name": "Prodify",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-10-25T12:35:37Z",
+  "homepage": "https://prodify-two.vercel.app",
+  "url": "https://github.com/johntitor08/Prodify"
+ },
+ {
+  "name": "WpfLibrary",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:30:34Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/WpfLibrary"
+ },
+ {
+  "name": "ModernDesign",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:29:55Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/ModernDesign"
+ },
+ {
+  "name": "MiniLibrary2",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:29:05Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/MiniLibrary2"
+ },
+ {
+  "name": "ProductManagementWeb",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:26:52Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/ProductManagementWeb"
+ },
+ {
+  "name": "PizzaStore",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:26:23Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/PizzaStore"
+ },
+ {
+  "name": "ContosoPizza",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:23:19Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/ContosoPizza"
+ },
+ {
+  "name": "MovieApp",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-10-25T12:21:18Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/MovieApp"
+ },
+ {
+  "name": "LibraryApp",
+  "description": "",
+  "language": "SCSS",
+  "stars": 0,
+  "updated": "2025-10-25T12:16:48Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/LibraryApp"
+ },
+ {
+  "name": "Password-Generator",
+  "description": "",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2025-10-12T09:15:00Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Password-Generator"
+ },
+ {
+  "name": "MusicPlaylistDoublyLinkedList",
+  "description": "",
+  "language": "Java",
+  "stars": 1,
+  "updated": "2025-10-07T15:48:01Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/MusicPlaylistDoublyLinkedList"
+ },
+ {
+  "name": "To-Do-List-Project",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-09-22T11:47:26Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/To-Do-List-Project"
+ },
+ {
+  "name": "SearchEngine",
+  "description": "",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2025-09-22T11:12:11Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/SearchEngine"
+ },
+ {
+  "name": "Genshin-Impact-Character-Cards",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-09-03T13:29:16Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Genshin-Impact-Character-Cards"
+ },
+ {
+  "name": "Smart-Flower-Recognition-Application",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2025-08-25T15:30:42Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Smart-Flower-Recognition-Application"
+ },
+ {
+  "name": "Tkinter",
+  "description": "",
+  "language": "Python",
+  "stars": 0,
+  "updated": "2025-08-25T09:05:46Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Tkinter"
+ },
+ {
+  "name": "GitHub-API",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-08-21T07:18:44Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/GitHub-API"
+ },
+ {
+  "name": "Adam-Asmaca",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-08-21T06:57:16Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Adam-Asmaca"
+ },
+ {
+  "name": "JavaScript---Async-Programming",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-08-19T22:05:20Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/JavaScript---Async-Programming"
+ },
+ {
+  "name": "Film-Project---ES6",
+  "description": "",
+  "language": "HTML",
+  "stars": 0,
+  "updated": "2025-08-19T18:53:00Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Film-Project---ES6"
+ },
+ {
+  "name": "kodluyoruzilkrepo",
+  "description": "Kodluyoruz Eğitimi kapsamında açtığım ilk repo",
+  "language": "",
+  "stars": 0,
+  "updated": "2025-08-13T01:44:18Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/kodluyoruzilkrepo"
+ },
+ {
+  "name": "fibonacci-average-app",
+  "description": "",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2025-08-11T23:08:33Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/fibonacci-average-app"
+ },
+ {
+  "name": "binary-search-tree",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-08-11T22:22:23Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/binary-search-tree"
+ },
+ {
+  "name": "insertion-sort",
+  "description": "",
+  "language": "JavaScript",
+  "stars": 0,
+  "updated": "2025-08-11T22:03:02Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/insertion-sort"
+ },
+ {
+  "name": "Udemy-Github-Egitim",
+  "description": "",
+  "language": "",
+  "stars": 0,
+  "updated": "2025-03-26T00:18:39Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Udemy-Github-Egitim"
+ },
+ {
+  "name": "Top-Down_Shooter",
+  "description": "With Burakkardas",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2022-03-14T01:47:47Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Top-Down_Shooter"
+ },
+ {
+  "name": "Unity-Snake-Game-2D",
+  "description": "Unity Snake Game 2D (Quoted from Burakkardas)",
+  "language": "C#",
+  "stars": 0,
+  "updated": "2022-01-02T00:03:38Z",
+  "homepage": "",
+  "url": "https://github.com/johntitor08/Unity-Snake-Game-2D"
+ }
+]
