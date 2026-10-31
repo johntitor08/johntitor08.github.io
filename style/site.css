@@ -13,6 +13,10 @@
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 }
 
+[hidden] {
+    display: none !important;      /* .btn gibi display veren sınıflar hidden'ı ezmesin */
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
