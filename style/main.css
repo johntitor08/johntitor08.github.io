@@ -80,6 +80,11 @@ html {
     margin: auto;
 }
 
+#games .items .item img {
+    max-width: 100%;
+    height: auto;
+}
+
 #games .items .item:hover {
     opacity: 0.8;
 }
