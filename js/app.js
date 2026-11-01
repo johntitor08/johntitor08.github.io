@@ -316,6 +316,23 @@ function setupNav() {
     window.addEventListener("scroll", () => toTop.classList.toggle("show", window.scrollY > 600), { passive: true });
 }
 
+// Tanıtım videosu: YouTube oynatıcısı (ve çerezleri) ancak tıklayınca yüklenir
+function setupVideo() {
+    const btn = document.querySelector("#featureVideo .video");
+    if (!btn) return;
+    btn.addEventListener("click", () => {
+        const id = btn.dataset.id;
+        const frame = el("iframe", {
+            src: "https://www.youtube-nocookie.com/embed/" + id + "?autoplay=1&rel=0",
+            title: "MyCity Online tanıtım videosu",
+            allow: "autoplay; encrypted-media; picture-in-picture; fullscreen",
+            allowfullscreen: "",
+        });
+        const box = el("div", { class: "video" }, [frame]);
+        btn.replaceWith(box);
+    }, { once: true });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     $("#year").textContent = String(new Date().getFullYear());
     $("#statGames").textContent = String(GAMES.length);
@@ -325,6 +342,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAssets();
     setupNav();
     setupContact();
+    setupVideo();
     $("#projectSearch").addEventListener("input", () => { shown = PAGE; renderProjects(); });
     $("#projectSort").addEventListener("change", () => { shown = PAGE; renderProjects(); });
     $("#projectMore").addEventListener("click", () => { shown += PAGE; renderProjects(); });
