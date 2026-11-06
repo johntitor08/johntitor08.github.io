@@ -333,6 +333,20 @@ function setupVideo() {
     }, { once: true });
 }
 
+// Duyuru bandı: kapatma tercihi tarayıcıda saklanır (yeni duyuru yeni anahtarla tekrar görünür)
+function setupAnnounce() {
+    const box = $("#announce");
+    if (!box) return;
+    const key = "duyuru-kapali:" + box.dataset.key;
+    try {
+        if (localStorage.getItem(key)) { box.hidden = true; return; }
+    } catch (e) { /* depolama kapalı: bant görünür kalır */ }
+    box.querySelector(".announce-close").addEventListener("click", () => {
+        box.hidden = true;
+        try { localStorage.setItem(key, "1"); } catch (e) { /* yoksay */ }
+    });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
     $("#year").textContent = String(new Date().getFullYear());
     $("#statGames").textContent = String(GAMES.length);
@@ -343,6 +357,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setupNav();
     setupContact();
     setupVideo();
+    setupAnnounce();
     $("#projectSearch").addEventListener("input", () => { shown = PAGE; renderProjects(); });
     $("#projectSort").addEventListener("change", () => { shown = PAGE; renderProjects(); });
     $("#projectMore").addEventListener("click", () => { shown += PAGE; renderProjects(); });

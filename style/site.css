@@ -63,6 +63,58 @@ ul {
     color: var(--muted);
 }
 
+/* Duyuru bandı (kapatılınca o duyuru bu tarayıcıda bir daha görünmez) */
+.announce {
+    background: linear-gradient(90deg, rgba(250, 204, 21, 0.14), rgba(250, 204, 21, 0.04));
+    border-bottom: 1px solid var(--line);
+}
+
+.announce-inner {
+    display: flex;
+    align-items: center;
+    gap: 12px 16px;
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.announce-inner p {
+    flex: 1 1 280px;
+    margin: 0;
+    font-size: 0.95rem;
+}
+
+.announce-tag {
+    background: var(--accent);
+    color: #1a1400;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding: 3px 9px;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.announce-actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.announce-close {
+    background: none;
+    border: 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+.announce-close:hover {
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.06);
+}
+
 .center {
     text-align: center;
     margin-top: 24px;
