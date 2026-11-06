@@ -6,7 +6,7 @@ const GH = "https://github.com/johntitor08/";
 // Oyunlar: kapaklar images/games/, "play" tarayıcıda oynanan sürüm.
 const GAMES = [
     { title: "MyCity Online", img: "mycity-online.png", genre: "Simülasyon", engine: "Godot", badge: "Yeni",
-      desc: "Arkadaşlarınla aynı şehirde yaşa: arsa al, iş kur, okyanusu keşfet. Türkçe, ücretsiz ve çok oyunculu.",
+      desc: "Arkadaşlarınla aynı şehirde yaşa: arsa al, iş kur, okyanusu keşfet, polisten kaç. Türkçe, ücretsiz ve çok oyunculu (sürüm 2.4.1).",
       platforms: ["Windows", "Linux", "Android", "Tarayıcı"],
       play: "https://johntitor08.github.io/mycity-online/", itch: ITCH + "mycity-online", repo: GH + "mycity-online" },
     { title: "Whispers of the Night", img: "whispers-of-the-night.jpg", genre: "RPG", engine: "Unity · Godot", badge: "Steam",
