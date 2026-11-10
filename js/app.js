@@ -9,6 +9,14 @@ const GAMES = [
       desc: "Arkadaşlarınla aynı şehirde yaşa: arsa al, iş kur, okyanusu keşfet, polisten kaç. Türkçe, ücretsiz ve çok oyunculu (sürüm 2.4.1).",
       platforms: ["Windows", "Linux", "Android", "Tarayıcı"],
       play: "https://johntitor08.github.io/mycity-online/", itch: ITCH + "mycity-online", repo: GH + "mycity-online" },
+    { title: "Pil Avı", img: "pil-avi.png", genre: "Platform", engine: "Godot", badge: "Yeni",
+      desc: "Robotunla pili kap, şarj istasyonuna ilk sen dön. Her tur önceki turun birincisi Mühendis olur; tahta, balon, yay ve cıvatayla yol açar ya da ortalığı karıştırır. Online, botlarla da oynanır.",
+      platforms: ["Tarayıcı"],
+      play: ITCH + "pil-avi", itch: ITCH + "pil-avi", repo: GH + "pil-avi" },
+    { title: "Nakavt Online", img: "nakavt-online.png", genre: "Dövüş", engine: "Godot", badge: "Yeni",
+      desc: "Online 2D boks: oda koduyla arkadaşına meydan oku ya da rastgele rakip bul. Gard, kroşe, aparkat ve sıyrılmayla 3 raunt; yapay zekâya karşı antrenman da var.",
+      platforms: ["Windows", "Linux", "Tarayıcı"],
+      play: ITCH + "nakavt-online-web", itch: ITCH + "nakavt-online", repo: GH + "nakavt-online" },
     { title: "Whispers of the Night", img: "whispers-of-the-night.jpg", genre: "RPG", engine: "Unity · Godot", badge: "Steam",
       desc: "RPG. Steam'de yayında; Godot 4.6 portunun kaynak kodu GitHub'da.",
       platforms: ["Windows", "Linux", "macOS"],
@@ -252,7 +260,10 @@ function renderProjects() {
 
 // ------------------------------------------------------------------ iletişim formu
 
-// Statik site (GitHub Pages) sunucusuz: mesaj, sitenin deposunda önceden doldurulmuş bir GitHub konusu olarak açılır.
+// Statik site (GitHub Pages) sunucusuz: mesaj Web3Forms üzerinden doğrudan e-postama gelir, sayfadan çıkılmaz.
+// Erişim anahtarı herkese açık olabilir (yalnızca bu adrese mesaj göndermeye yarar), e-posta adresi kodda yer almaz.
+const WEB3FORMS_KEY = "b196f1e8-dee3-4670-a349-3fe6537986fd";
+
 function setupContact() {
     const form = $("#contactForm");
     const status = $("#formStatus");
@@ -273,17 +284,45 @@ function setupContact() {
             bad[0].focus();
             return;
         }
-        const body = message + "\n\n---\nGönderen: " + name + (email ? "\nE-posta: " + email : "");
-        const url = "https://github.com/johntitor08/johntitor08.github.io/issues/new?title=" +
-            encodeURIComponent("İletişim: " + name) + "&body=" + encodeURIComponent(body);
-        const win = window.open(url, "_blank", "noopener");
-        status.className = "form-status ok";
-        status.textContent = win === null
-            ? "Açılır pencere engellendi; GitHub'a yönlendiriliyorsun…"
-            : "GitHub'da mesaj sayfası açıldı. Göndermek için orada \"Submit new issue\"a bas.";
-        if (win === null) window.location.href = url;
-        form.reset();
+        if (form.botcheck.checked) return; // görünmez kutuyu yalnızca botlar işaretler
+        sendMail(form, { name, email, message });
     });
+}
+
+async function sendMail(form, { name, email, message }) {
+    const status = $("#formStatus");
+    const button = form.querySelector("button[type=submit]");
+    if (!WEB3FORMS_KEY) {
+        status.className = "form-status error";
+        status.textContent = "İletişim formu henüz hazır değil. Şimdilik itch.io ya da GitHub üzerinden ulaşabilirsin.";
+        return;
+    }
+    button.disabled = true;
+    status.className = "form-status";
+    status.textContent = "Gönderiliyor…";
+    try {
+        const res = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            headers: { "Content-Type": "application/json", Accept: "application/json" },
+            body: JSON.stringify({
+                access_key: WEB3FORMS_KEY,
+                subject: "Siteden mesaj: " + name,
+                from_name: "johntitor08.github.io",
+                name, message,
+                ...(email ? { email } : {}), // Web3Forms bu alanı yanıt adresi yapar
+            }),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok || !data.success) throw new Error(data.message || "HTTP " + res.status);
+        status.className = "form-status ok";
+        status.textContent = "Mesajın gönderildi, teşekkürler!" + (email ? " En kısa sürede dönerim." : "");
+        form.reset();
+    } catch (e) {
+        status.className = "form-status error";
+        status.textContent = "Mesaj gönderilemedi. Biraz sonra tekrar dene.";
+    } finally {
+        button.disabled = false;
+    }
 }
 
 // ------------------------------------------------------------------ menü ve sayfa

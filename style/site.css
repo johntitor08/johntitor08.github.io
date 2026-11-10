@@ -822,3 +822,17 @@ ul {
         transition: none;
     }
 }
+
+/* İletişim formundaki bot tuzağı: insanlar görmez */
+.botcheck {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: wait;
+}
