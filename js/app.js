@@ -12,7 +12,7 @@ const GAMES = [
     { title: "Kadim Diyar Online", img: "kadim-diyar-online.png", genre: "RPG", engine: "Godot", badge: "Yeni",
       desc: "Çok oyunculu aksiyon RPG: arkadaşlarınla canavar avla, seviye atla, altın biriktir, kamptaki tüccardan iksir al ve köşelerde uyanan Kadim Dev'i birlikte devir. İlerlemen resmi sunucuda saklanır.",
       platforms: ["Windows", "Linux"],
-      itch: ITCH + "kadim-diyar-online" },
+      itch: ITCH + "kadim-diyar-online", repo: GH + "kadim-diyar-online" },
     { title: "Pil Avı", img: "pil-avi.png", genre: "Platform", engine: "Godot", badge: "Yeni",
       desc: "Robotunla pili kap, şarj istasyonuna ilk sen dön. Her tur önceki turun birincisi Mühendis olur; tahta, balon, yay ve cıvatayla yol açar ya da ortalığı karıştırır. Online, botlarla da oynanır.",
       platforms: ["Tarayıcı"],
