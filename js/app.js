@@ -10,7 +10,7 @@ const GAMES = [
       platforms: ["Windows", "Linux", "Android", "Tarayıcı"],
       play: "https://johntitor08.github.io/mycity-online/", itch: ITCH + "mycity-online", repo: GH + "mycity-online" },
     { title: "Kadim Diyar Online", img: "kadim-diyar-online.png", genre: "RPG", engine: "Godot", badge: "Yeni",
-      desc: "Çok oyunculu aksiyon RPG: karakterini oluştur, arkadaşlarınla canavar avla, kılıç ve zırh topla, Kâhin'den görev al, Kasırga ve Şifa gibi yetenekler aç, köşelerde uyanan Kadim Dev'i birlikte devir. Tarayıcıda da oynanır; ilerlemen sunucuda saklanır.",
+      desc: "Çok oyunculu aksiyon RPG: karakterini oluştur, arkadaşlarınla çayırdan mezarlığa, buzuldan volkana ve okyanustaki adalara uzanan bölgelerde avlan. Ejderha, Kraken ve Kadim Dev'i birlikte devir; ganimet topla, tüccardan donan, Kâhin'in görevlerini bitir. Tarayıcıda da oynanır.",
       platforms: ["Windows", "Linux", "Tarayıcı"],
       play: ITCH + "kadim-diyar-online-web", itch: ITCH + "kadim-diyar-online", repo: GH + "kadim-diyar-online" },
     { title: "Pil Avı", img: "pil-avi.png", genre: "Platform", engine: "Godot", badge: "Yeni",
